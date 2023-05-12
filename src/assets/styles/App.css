@@ -1,0 +1,103 @@
+html{
+  height: 100%;
+}
+
+
+body{
+  margin: auto;
+  background-color: rgb(49, 63, 65);
+  color:#fff;
+}
+
+
+.enabled{
+  color:yellow;
+  background-color: yellow;
+}
+
+.disabled{
+  color:rgb(74, 89, 124);
+  background-color:rgb(74, 89, 124);
+}
+
+.star-rating-wrap{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+}
+
+h2{
+  margin-top: 15px;
+}
+
+
+main{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  background-color: rgb(31, 46, 44);
+  height:500px;
+  position:relative;
+}
+
+main#darkened{
+  background-color: rgb(22, 31, 33);
+}
+
+
+.stars{
+  width:500px;
+  display:flex;
+  justify-content: space-between;
+}
+
+dialog{
+  background-color: rgb(101, 131, 138);
+  text-align:center;
+  position:absolute;
+  inset:0%;
+  margin:auto; 
+  width: 500px;
+  z-index:1;
+  padding:12px;
+  border-radius:15px;
+  color:#fff;
+  font-size: larger;
+}
+
+dialog h3, p{
+  padding:15px;
+}
+
+button{
+  background-color: rgb(77, 80, 104);
+  color:#fff;
+  margin:15px;
+  padding:15px 25px;
+  border-radius:15px;
+  font-weight:500;
+  font-size:15px;
+}
+
+
+button#canhover{
+  background-color: rgb(246, 177, 17);
+}
+
+button#canhover:hover{
+  background-color: rgb(200, 136, 80);
+}
+
+.funnyImage{
+  border-radius:15px;
+  margin:auto;
+  width:200px;
+  height:200px;
+  background-size: cover;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png");
+
+}
+
+
